@@ -4,7 +4,7 @@ import {addDoc, collection,getDocs, getFirestore} from 'firebase/firestore'
 import {getStorage,ref,uploadBytes,getDownloadURL} from 'firebase/storage'
 import { Toaster,toast } from "sonner";
 // Your web app's Firebase configuration
-
+// set your firebase key here
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
