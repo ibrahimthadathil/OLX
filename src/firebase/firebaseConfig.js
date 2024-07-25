@@ -4,14 +4,7 @@ import {addDoc, collection,getDocs, getFirestore} from 'firebase/firestore'
 import {getStorage,ref,uploadBytes,getDownloadURL} from 'firebase/storage'
 import { Toaster,toast } from "sonner";
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyAtlNSaQe2bhnI9wy_LEuodjl2MIZNStnc",
-  authDomain: "olx-clone-b8a0f.firebaseapp.com",
-  projectId: "olx-clone-b8a0f",
-  storageBucket: "olx-clone-b8a0f.appspot.com",
-  messagingSenderId: "747248663756",
-  appId: "1:747248663756:web:82cfa26c0539658c5f5669"
-};
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
